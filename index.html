@@ -19,27 +19,33 @@
         <link rel="stylesheet" href="index.css" />
     </head>
     <body>
-        <nav class="nav-container">
-            <div id="logo-container-div" class="nav-container-div">
-                <img
-                    alt="logo"
-                    src="https://assets.ajio.com/static/img/Ajio-Logo.svg"
-                    id="ajio-nav-logo"
-                />
-            </div>
-            <div class="nav-container-div" id="nav-categories-container">
-                <div>Men</div>
-                <div>Women</div>
-                <div>Kids</div>
-                <div>Indie</div>
-                <div>Home and Kitchen</div>
-            </div>
-            <div class="nav-container-div" id="nav-utilities-container">
-                <input
-                    type="text"
-                    placeholder="Search AJIO"
-                    id="nav-search-div"
-                />
+        <!-- container/container-fluid -> row -> col classes -->
+        <nav class="nav-container container-fluid">
+            <div class="row w-100">
+                <div id="logo-container-div" class="nav-container-div col">
+                    <img
+                        alt="logo"
+                        src="https://assets.ajio.com/static/img/Ajio-Logo.svg"
+                        id="ajio-nav-logo"
+                    />
+                </div>
+                <div
+                    class="nav-container-div col-md-6 col-12"
+                    id="nav-categories-container"
+                >
+                    <div>Men</div>
+                    <div>Women</div>
+                    <div>Kids</div>
+                    <div>Indie</div>
+                    <div>Home and Kitchen</div>
+                </div>
+                <div class="nav-container-div col" id="nav-utilities-container">
+                    <input
+                        type="text"
+                        placeholder="Search AJIO"
+                        id="nav-search-div"
+                    />
+                </div>
             </div>
         </nav>
         <div>
